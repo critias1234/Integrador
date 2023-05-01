@@ -1,0 +1,71 @@
+.clasenav{
+    background: rgb(54, 49, 65);
+}
+.divlogo{
+    color: aliceblue;
+}
+
+.claseinicio{
+    color: grey;
+}
+.claseElLugarYLaFecha{
+    color: grey;
+}
+.conEnUnOr{
+    color: grey;
+}
+.comTick{
+    color: rgb(19, 165, 44);
+}
+.carousel-caption{
+text-align: end;
+    
+}
+.d-block{
+ filter: brightness(60%);
+ -webkit-filter: brightness(60%);
+}
+.conoce{
+    text-align: center;
+}
+.js{
+    font-weight: bold;
+    font-size: small;
+    background-color: yellow;
+    padding: 1%;
+    border-radius: 10%;
+}
+
+.react{
+    font-weight: bold;
+    font-size: small;
+    color: white;
+    background-color: rgb(16, 134, 173);
+    padding: 1%;
+    border-radius: 10%;
+}
+
+.negocios{
+    font-weight: bold;
+    font-size: small;
+    color: white;
+    background-color: rgb(173, 171, 171);
+    padding: 1%;
+    border-radius: 10%;
+}
+
+.startups{
+    font-weight: bold;
+    font-size: small;
+    color: white;
+    background-color: red;
+    padding: 1%;
+    border-radius: 10%;
+}
+#ciudad{
+    color: white;
+    background: rgb(54, 49, 65);
+}
+.footer{
+    background: rgb(54, 49, 65);
+}
