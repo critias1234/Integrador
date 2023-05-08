@@ -65,6 +65,7 @@ height: 3em;
 @media screen and (max-width: 576px) {
     .la-conferencia{
         position: static;
+        background-color:rgb(58, 57, 63); ;
     }
 }
 
