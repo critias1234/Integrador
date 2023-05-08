@@ -37,16 +37,36 @@ height: 3em;
     color: green;
 }
 
-.carousel-caption{
+.carouselimg{
+    position: relative;
+}
+.la-conferencia{
+    position: absolute;
+    z-index: 100;
+    top: 300px;
+    padding: 20px;
     text-align: right;
 }
-
-@media screen and (max-width: 768px) {
-    .carousel-caption {
-      max-width: 80%;
-      font-size: 14px;
+@media screen and (max-width: 1200px) {
+    .la-conferencia{
+        top: 100px;
     }
-  }
+}
+@media screen and (max-width: 1000px) {
+    .la-conferencia{
+        top: 100px;
+    }
+}
+@media screen and (max-width: 700px) {
+    .la-conferencia{
+        top: 10px;
+    }
+}
+@media screen and (max-width: 576px) {
+    .la-conferencia{
+        position: static;
+    }
+}
 
 .d-block{
     filter: brightness(60%);
