@@ -3,10 +3,18 @@ document.addEventListener('DOMContentLoaded', function() {
     let btnBorrar = document.querySelector('.btn-borrar');
 
     btnResumen.addEventListener('click', function() {
+        let inputName = document.getElementById('inputName')
+        let inputSurname = document.getElementById('inputSurname')
+        let inputEmail = document.getElementById('inputEmail')
         let inputCant = document.getElementById('inputCant');
         let inputState = document.getElementById('inputState');
         let outputBox = document.querySelector('.output-box');
-        let totalPagar = parseInt(inputCant.value) * 200;
+        let totalPagar = inputCant.value * 200;
+
+        if (inputName.value === '' || inputSurname.value === '' || inputEmail.value === ''){
+            alert('Por favor completa todos los campos del formulario');
+            return;
+        } 
 
         if (inputState.value === 'Estudiante') {
             totalPagar = totalPagar * 0.8;
