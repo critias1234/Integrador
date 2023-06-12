@@ -25,6 +25,7 @@ document.addEventListener('DOMContentLoaded', function() {
             } 
 
             outputBox.textContent = 'Total a Pagar: $' + totalPagar.toFixed(2);
+            alert('Formulario enviado con éxito!!');
     });
 
     btnBorrar.addEventListener('click', function() {
